@@ -2,7 +2,7 @@ import requests
 import sys, argparse, csv, time, md5, random, os, re, json, hashlib
 from colorama import init, Fore, Back, Style
 
-BASE_URL = 'http://localhost/quantus/web/app_dev.php/'
+BASE_URL = 'https://www.exversion.com/'
 
 def login(username, password, version):
     # This is the form data that the page sends when logging in
